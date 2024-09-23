@@ -90,5 +90,86 @@ public class Utente {
         peso = PESO_POR_OMISSAO;
         totalUtentes++;
     }
+ /**
+     * Retorna o nome do utente
+     * 
+     * @return nome do utente
+     */
+    public String getNome() {
+        return nome;
+    }
+    /**
+     * Retorna o género do utente
+     * 
+     * @return género do utente
+     */
+    public String getGenero() {
+        return genero;
+    }
+    /**
+     * Retorna a idade do utente
+     * 
+     * @return idade do utente
+     */
+    public int getIdade() {
+        return idade;
+    }
+    /**
+     * Retorna a altura do utente
+     * 
+     * @return altura do utente
+     */
+    public float getAltura() {
+        return altura;
+    }
+    /**
+     * Retorna o peso do utente
+     * 
+     * @return o peso do utente
+     */
+    public int getPeso() {
+        return peso;
+    }
+    /**
+     * Altera o nome do utente
+     * 
+     * @param nome nome do utente
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    /**
+     * Altera o género do utente
+     * 
+     * @param genero género do utente
+     */
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+    /**
+     * Altera a idade do utente
+     * 
+     * @param idade idade do utente
+     */
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+    /**
+     * Altera a altura do utente
+     * 
+     * @param altura altura do utente
+     */
+    public void setAltura(float altura) {
+        this.altura = altura;
+    }
+    /**
+     * Altera o peso do utente
+     * 
+     * @param peso peso do utente
+     */
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
     
 }
