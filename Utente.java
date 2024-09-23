@@ -181,4 +181,12 @@ public class Utente {
         return String.format("%s é do género %s, tem %d anos, %.2fm de altura "
                             + "e %dkg de peso", nome, genero, idade, altura, peso); 
     }
+    /**
+     * Calcula o valor do indíce de massa coproral (IMC) de um utente
+     * 
+     * @return o valor do IMC
+     */
+    public float calcularIMC(){
+        return (altura!=0)?peso / (float) Math.pow(altura, 2):0;
+    }
 }
