@@ -171,5 +171,14 @@ public class Utente {
         this.peso = peso;
     }
 
-    
+    /**
+     * Retorna uma representção textual e legível do utente.
+     * 
+     * @return representação textual e legível do utente
+     */
+    @Override
+    public String toString() {
+        return String.format("%s é do género %s, tem %d anos, %.2fm de altura "
+                            + "e %dkg de peso", nome, genero, idade, altura, peso); 
+    }
 }
